@@ -1,0 +1,95 @@
+Building 00-introduction/00_introduction.jmd
+  Activating environment at `~/work/TuringTutorials/TuringTutorials/tutorials/00-introduction/Project.toml`
+Precompiling project...
+[32m  ✓ [39m[90mNamedArrays[39m
+[32m  ✓ [39m[90mAdvancedMH[39m
+[32m  ✓ [39m[90mNNlib[39m
+[32m  ✓ [39mMCMCChains
+[32m  ✓ [39m[90mTracker[39m
+[32m  ✓ [39mStatsPlots
+[32m  ✓ [39m[90mBijectors[39m
+[32m  ✓ [39m[90mAdvancedVI[39m
+[32m  ✓ [39m[90mDynamicPPL[39m
+[32m  ✓ [39mTuring
+  10 dependencies successfully precompiled in 67 seconds (228 already precompiled)
+Building Script
+[ Info: Tangled to /home/runner/work/TuringTutorials/TuringTutorials/script/00-introduction/00_introduction.jl
+Building HTML
+┌ Warning: Package Weave does not have Serialization in its dependencies:
+│ - If you have Weave checked out for development and have
+│   added Serialization as a dependency but haven't updated your primary
+│   environment's manifest file, try `Pkg.resolve()`.
+│ - Otherwise you may need to report an issue with Weave
+└ Loading Serialization into Weave from project dependency, future warnings for Weave are suppressed.
+[ Info: No cached results found, running code
+┌ Info: Weaving chunk 1 from line 23
+└   progress = 0.0
+┌ Info: Weaving chunk 2 from line 37
+└   progress = 0.08333333333333333
+┌ Info: Weaving chunk 3 from line 48
+└   progress = 0.16666666666666666
+┌ Info: Weaving chunk 4 from line 60
+└   progress = 0.25
+┌ Info: Weaving chunk 5 from line 82
+└   progress = 0.3333333333333333
+┌ Info: Saved animation to 
+└   fn = "/home/runner/work/TuringTutorials/TuringTutorials/html/00-introduction/tmp.gif"
+┌ Info: Weaving chunk 6 from line 118
+└   progress = 0.4166666666666667
+┌ Info: Weaving chunk 7 from line 132
+└   progress = 0.5
+┌ Info: Weaving chunk 8 from line 150
+└   progress = 0.5833333333333334
+┌ Info: Weaving chunk 9 from line 163
+└   progress = 0.6666666666666666
+┌ Info: Weaving chunk 10 from line 171
+└   progress = 0.75
+┌ Info: Weaving chunk 11 from line 175
+└   progress = 0.8333333333333334
+┌ Warning: seriestype density has been moved to StatsPlots.  To use: `Pkg.add("StatsPlots"); using StatsPlots`
+└ @ Plots ~/.julia/packages/Plots/Di0Qb/src/args.jl:1525
+┌ Warning: seriestype density has been moved to StatsPlots.  To use: `Pkg.add("StatsPlots"); using StatsPlots`
+└ @ Plots ~/.julia/packages/Plots/Di0Qb/src/args.jl:1525
+┌ Info: Weaving chunk 12 from line 195
+└   progress = 0.9166666666666666
+┌ Info: Weaved all chunks
+└   progress = 1
+[ Info: Weaved to /home/runner/work/TuringTutorials/TuringTutorials/html/00-introduction/00_introduction.html
+Building Github Markdown
+[ Info: No cached results found, running code
+┌ Info: Weaving chunk 1 from line 23
+└   progress = 0.0
+┌ Info: Weaving chunk 2 from line 37
+└   progress = 0.08333333333333333
+┌ Info: Weaving chunk 3 from line 48
+└   progress = 0.16666666666666666
+┌ Info: Weaving chunk 4 from line 60
+└   progress = 0.25
+┌ Info: Weaving chunk 5 from line 82
+└   progress = 0.3333333333333333
+┌ Info: Saved animation to 
+└   fn = "/home/runner/work/TuringTutorials/TuringTutorials/markdown/00-introduction/tmp.gif"
+┌ Info: Weaving chunk 6 from line 118
+└   progress = 0.4166666666666667
+┌ Info: Weaving chunk 7 from line 132
+└   progress = 0.5
+┌ Info: Weaving chunk 8 from line 150
+└   progress = 0.5833333333333334
+┌ Info: Weaving chunk 9 from line 163
+└   progress = 0.6666666666666666
+┌ Info: Weaving chunk 10 from line 171
+└   progress = 0.75
+┌ Info: Weaving chunk 11 from line 175
+└   progress = 0.8333333333333334
+┌ Warning: seriestype density has been moved to StatsPlots.  To use: `Pkg.add("StatsPlots"); using StatsPlots`
+└ @ Plots ~/.julia/packages/Plots/Di0Qb/src/args.jl:1525
+┌ Warning: seriestype density has been moved to StatsPlots.  To use: `Pkg.add("StatsPlots"); using StatsPlots`
+└ @ Plots ~/.julia/packages/Plots/Di0Qb/src/args.jl:1525
+┌ Info: Weaving chunk 12 from line 195
+└   progress = 0.9166666666666666
+┌ Info: Weaved all chunks
+└   progress = 1
+[ Info: Weaved to /home/runner/work/TuringTutorials/TuringTutorials/markdown/00-introduction/00_introduction.md
+Building Notebook
+Skipping 00-introduction/Manifest.toml
+Skipping 00-introduction/Project.toml
