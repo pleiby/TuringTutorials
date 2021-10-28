@@ -48,7 +48,7 @@ We will now use the Bernoulli distribution to flip 100 coins, and collect the re
 ```julia
 # Draw data from a Bernoulli distribution, i.e. draw heads or tails.
 Random.seed!(12)
-data = rand(Bernoulli(p_true), last(Ns))
+data = rand(Bernoulli(p_true), last(Ns)) # use `last` for iterator, rather than `length`
 
 # Here's what the first five coin flips look like:
 data[1:5]
@@ -105,6 +105,7 @@ animation = @gif for (i, N) in enumerate(Ns)
     vline!([p_true])
 end
 ```
+
 
 The animation above shows that with increasing evidence our belief about the probability of heads in a coin flip slowly adjusts towards the true value. The orange line in the animation represents the true probability of seeing heads on a single coin flip, while the mode of the distribution shows what the model believes the probability of a heads is given the evidence it has seen.
 
