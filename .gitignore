@@ -8,3 +8,6 @@ ClonedTuringTutorials/
 **/00-introduction
 **/01-gaussian-mixture-model
 test/Manifest.toml
+
+# system files from Mac
+.DS_Store
